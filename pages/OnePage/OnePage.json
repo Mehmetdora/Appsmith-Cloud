@@ -1,11 +1,12 @@
 {
   "gitSyncId": "68b68debccdbe80c87356bca_adcca88b-cdbd-4827-88fd-43493cc67ac9",
   "unpublishedPage": {
+    "isHidden": false,
     "layouts": [
       {
         "dsl": {
           "backgroundColor": "none",
-          "bottomRow": 380,
+          "bottomRow": 660,
           "canExtend": true,
           "containerStyle": "none",
           "detachFromLayout": true,
@@ -26,7 +27,7 @@
         }
       }
     ],
-    "name": "Page1",
-    "slug": "page1"
+    "name": "OnePage",
+    "slug": "onepage"
   }
 }

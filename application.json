@@ -18,7 +18,7 @@
   "icon": "mug",
   "pages": [
     {
-      "id": "Page1",
+      "id": "OnePage",
       "isDefault": true
     }
   ],
