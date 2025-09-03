@@ -1,5 +1,8 @@
 {
   "appIsExample": false,
+  "appLayout": {
+    "type": "TABLET"
+  },
   "applicationDetail": {
     "appPositioning": {
       "type": "FIXED"
@@ -18,10 +21,21 @@
   "icon": "mug",
   "pages": [
     {
-      "id": "OnePage",
+      "id": "Anasayfa",
       "isDefault": true
+    },
+    {
+      "id": "Kullanıcılar",
+      "isDefault": false
+    },
+    {
+      "id": "Page1",
+      "isDefault": false
     }
   ],
+  "unpublishedAppLayout": {
+    "type": "TABLET"
+  },
   "unpublishedApplicationDetail": {
     "appPositioning": {
       "type": "FIXED"

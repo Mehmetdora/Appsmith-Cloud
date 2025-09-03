@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  mei_services.servicos
+WHERE
+  "nome_servico" ilike '%{{userTable.searchText}}%'
+ORDER BY
+  "{{userTable.sortOrder.column || 'id_servico'}}" {{userTable.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{userTable.pageSize}}
+OFFSET
+  {{userTable.pageOffset}}

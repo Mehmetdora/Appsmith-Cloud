@@ -1,0 +1,11 @@
+{
+  "gitSyncId": "68b68debccdbe80c87356bca_1430b4fb-1751-4087-81d1-be12b5308baa",
+  "id": "Kullanıcılar_get_user_info",
+  "unpublishedCollection": {
+    "name": "get_user_info",
+    "pageId": "Kullanıcılar",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": []
+  }
+}

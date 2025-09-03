@@ -1,0 +1,20 @@
+{
+  "gitSyncId": "68b68debccdbe80c87356bca_7a166ae4-2ebc-4bd8-b2b3-e3ebcdbb4241",
+  "id": "Kullanıcılar_JSObject2",
+  "unpublishedCollection": {
+    "name": "JSObject2",
+    "pageId": "Kullanıcılar",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "variables": [
+      {
+        "name": "myVar1",
+        "value": "[]"
+      },
+      {
+        "name": "myVar2",
+        "value": "{}"
+      }
+    ]
+  }
+}

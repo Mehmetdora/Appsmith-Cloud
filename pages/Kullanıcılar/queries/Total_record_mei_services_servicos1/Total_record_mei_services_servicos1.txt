@@ -1,0 +1,1 @@
+SELECT COUNT(*) from mei_services.servicos where nome_servico ilike '%{{userTable.searchText}}%';

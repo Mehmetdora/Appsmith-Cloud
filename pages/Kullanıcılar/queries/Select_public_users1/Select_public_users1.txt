@@ -1,0 +1,12 @@
+SELECT
+  *
+FROM
+  public.users
+WHERE
+  "name" ilike '%{{userTable.searchText}}%'
+ORDER BY
+  "{{userTable.sortOrder.column || 'id'}}" {{userTable.sortOrder.order !== "desc" ? "" : "DESC"}}
+LIMIT
+  {{userTable.pageSize}}
+OFFSET
+  {{userTable.pageOffset}}
